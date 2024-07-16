@@ -5046,7 +5046,7 @@ body.template-projects .c-site-menu__container.hidden {
     left: 0;
     top: 0;
     content: '';
-    background: url("../images/shapes/bg-shape-1.png");
+    /* background: url("../images/shapes/bg-shape-1.png"); */
     background-repeat: no-repeat;
     background-position: center right;
     background-size: 420px 270px;
