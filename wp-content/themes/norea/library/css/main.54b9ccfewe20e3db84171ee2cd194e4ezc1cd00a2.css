@@ -1911,7 +1911,13 @@ body.disable-scroll {
     width: 100vw;
     height: 100lvh;
     margin-left: -50vw;
-    background: linear-gradient(125deg, #34294c 0%, #34294c 100%);
+    /* background: linear-gradient(125deg, #34294c 0%, #34294c 100%); */
+    /* background-color: red; */
+    background-image: url("../images/mark.png");
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     will-change: transform
 }
 
@@ -3601,7 +3607,7 @@ body.template-projects .c-site-menu__container.hidden {
     display: flex;
     justify-content: space-between;
     padding: 6.25vw;
-    padding-bottom: 14vw;
+    padding-bottom: 3vw;
     width: 100%
 }
 
