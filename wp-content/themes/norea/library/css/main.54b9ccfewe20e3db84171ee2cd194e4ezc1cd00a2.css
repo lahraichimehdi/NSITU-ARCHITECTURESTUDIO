@@ -4880,7 +4880,7 @@ body.template-projects .c-site-menu__container.hidden {
     bottom: 0;
     content: '';
     transform: rotate(-90deg) translate(-80px, 90px);
-    background: url("../images/shapes/quarter-turquoise.png");
+    /* background: url("../images/shapes/quarter-turquoise.png"); */
     background-repeat: no-repeat;
     background-position: bottom left;
     background-size: 100%;
