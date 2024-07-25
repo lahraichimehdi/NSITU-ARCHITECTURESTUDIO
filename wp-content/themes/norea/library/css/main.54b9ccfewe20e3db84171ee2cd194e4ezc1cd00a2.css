@@ -6354,7 +6354,7 @@ body.template-projects .c-site-menu__container.hidden {
 .c-commitments__content__lottie::before {
     content: "";
     display: block;
-    padding-top: 100%
+    /* padding-top: 100% */
 }
 
 .c-commitments__content__lottie svg {
