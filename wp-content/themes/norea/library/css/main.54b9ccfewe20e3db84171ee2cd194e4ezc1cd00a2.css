@@ -9604,4 +9604,14 @@ html.has-scroll-dragging {
     }
 }
 
+
+
+.wathsapp_icon {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50%;
+    /* background-color: red; */
+}
+
 /*# sourceMappingURL=main.css.map */
