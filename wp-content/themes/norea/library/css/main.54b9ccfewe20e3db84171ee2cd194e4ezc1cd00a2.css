@@ -6731,13 +6731,13 @@ body.template-projects .c-site-menu__container.hidden {
 }
 
 .c-recruitment__grid__render__cell.cell-7>div {
-    -webkit-mask-image: url("../images/recruitment-7-mask.png");
+    /* -webkit-mask-image: url("../images/recruitment-7-mask.png");
     -webkit-mask-size: contain;
     -webkit-mask-repeat: no-repeat;
     mask-image: url("../images/recruitment-7-mask.png");
     mask-size: contain;
     mask-repeat: no-repeat;
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); */
     transition-delay: 0.3s;
     background-size: cover
 }
@@ -6747,7 +6747,7 @@ body.template-projects .c-site-menu__container.hidden {
 }
 
 .c-recruitment__grid__render.is-inview .cell-2>div {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%)
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%) */
 }
 
 .c-recruitment__grid__render.is-inview .cell-3>div {
