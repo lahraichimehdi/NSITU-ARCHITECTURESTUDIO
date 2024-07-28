@@ -2418,7 +2418,7 @@ body.disable-scroll {
     height: 100vh;
     height: 100dvh;
     z-index: 400;
-    background-color: #001A22;
+    background-color: #2f2444;
     display: flex;
     align-items: center;
     justify-content: center;
