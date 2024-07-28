@@ -2403,7 +2403,7 @@ body.disable-scroll {
 }
 
 .tpl-color-orange .c-site-header__surtitle {
-    color: #F37D50
+    color: #ff5359
 }
 
 .tpl-color-pink .c-site-header__surtitle {
@@ -2534,7 +2534,7 @@ body.disable-scroll {
     right: -1px;
     bottom: -1px;
     z-index: 0;
-    background-color: #F37D50;
+    background-color: #ff5359;
     backface-visibility: hidden;
     transform: translateY(101%);
     transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1)
@@ -2554,7 +2554,7 @@ body.disable-scroll {
 }
 
 .c-button__icon.social:hover svg {
-    fill: #F37D50
+    fill: #ff5359
 }
 
 .c-button__icon__duplicate {
@@ -2601,11 +2601,11 @@ body.disable-scroll {
 }
 
 .c-button:hover .c-button__label {
-    color: #F37D50
+    color: #ff5359
 }
 
 .c-button:hover .c-button__icon.has-bg {
-    background-color: #F37D50
+    background-color: #ff5359
 }
 
 .c-button:hover .c-button__icon.has-bg::after {
@@ -2651,11 +2651,11 @@ body.disable-scroll {
 }
 
 .c-site-menu li[data-color="orange"]:hover a {
-    color: #F37D50
+    color: #ff5359
 }
 
 .c-site-menu li[data-color="orange"] .arrow {
-    background-color: #F37D50
+    background-color: #ff5359
 }
 
 .c-site-menu li[data-color="green"]:hover a {
@@ -3505,11 +3505,11 @@ body.tpl-color.tpl-color-red .c-logo__title {
 }
 
 body.tpl-color.tpl-color-orange .c-logo::after {
-    background-color: #F37D50
+    background-color: #ff5359
 }
 
 body.tpl-color.tpl-color-orange .c-logo__title {
-    color: #F37D50
+    color: #ff5359
 }
 
 body.template-projects .c-site-menu__container.hidden {
@@ -4448,7 +4448,7 @@ body.template-projects .c-site-menu__container.hidden {
 }
 
 .c-overlap-cards__card.orange {
-    background: url("../images/texture0.png"), #F37D50
+    background: url("../images/texture0.png"), #ff5359
 }
 
 .c-overlap-cards__card.light-blue {
@@ -5436,7 +5436,7 @@ body.template-projects .c-site-menu__container.hidden {
 }
 
 .c-numbers__number.orange {
-    background: url("../images/texture0.png"), #F37D50
+    background: url("../images/texture0.png"), #ff5359
 }
 
 .c-numbers__number.pink {
@@ -5853,7 +5853,7 @@ body.template-projects .c-site-menu__container.hidden {
 }
 
 .tpl-color-orange .c-text-reveal__surtitle {
-    color: #F37D50
+    color: #ff5359
 }
 
 .tpl-color-pink .c-text-reveal__surtitle {
@@ -8142,7 +8142,7 @@ p.focus label:not(.file).textarea {
 }
 
 .c-video-gallery .videosSwiper__item__content__icon.orange {
-    background-color: #F37D50
+    background-color: #ff5359
 }
 
 .c-video-gallery .videosSwiper__item__content__icon.turquoise {
@@ -9615,3 +9615,54 @@ html.has-scroll-dragging {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+
+.languagepicker {
+    /* background-color: #FFF; */
+    display: flex;
+    padding: 0;
+    /* height: 40px; */
+    /* overflow: hidden; */
+    transition: all .3s ease;
+    margin: 0 0px 0px 40px;
+    vertical-align: top;
+    /* float: left; */
+}
+
+.languagepicker:hover {
+    /* don't forget the 1px border */
+    /* height: 81px; */
+}
+
+.languagepicker a.active img {
+    outline: 2px solid #fff;
+    text-decoration: none;
+}
+
+.languagepicker li {
+    display: block;
+    padding-right: 10px;
+    /* line-height: 40px; */
+    /* border-top: 1px solid #EEE; */
+}
+
+.languagepicker li:hover {
+    /* background-color: #EEE; */
+}
+
+.languagepicker a:first-child li {
+    border: none;
+    border-color: #FFF !important;
+}
+
+.languagepicker li img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.roundborders {
+    border-radius: 5px;
+}
