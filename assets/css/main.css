@@ -2632,7 +2632,7 @@ body.disable-scroll {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../images/logo-light.png");
+    background-image: url("../images/logo-light.png") !important;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -3489,7 +3489,8 @@ body.tpl-color.tpl-color-green .c-logo__title {
 }
 
 body.tpl-color.tpl-color-blue .c-logo::after {
-    background-color: #2FA7EC
+    background-color: #2FA7EC;
+    display: none;
 }
 
 body.tpl-color.tpl-color-blue .c-logo__title {
@@ -4452,19 +4453,19 @@ body.template-projects .c-site-menu__container.hidden {
 }
 
 .c-overlap-cards__card.light-blue {
-    background: url("../images/texture0.png"), #36BAAB
+    background: url("../images/texture0.png"), #afafaf
 }
 
 .c-overlap-cards__card.blue {
-    background: url("../images/texture0.png"), #01A0EE
+    background: url("../images/texture0.png"), #afafaf
 }
 
 .c-overlap-cards__card.green {
-    background: url("../images/texture0.png"), linear-gradient(175deg, #c8e993 7.27%, #7f9a55 116.03%)
+    background: url("../images/texture0.png"), #f6d6c7
 }
 
 .c-overlap-cards__card.pink {
-    background: url("../images/texture0.png"), #FFAEDD
+    background: url("../images/texture0.png"), #fec240
 }
 
 .c-overlap-cards__card__nav {
