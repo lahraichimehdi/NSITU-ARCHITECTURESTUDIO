@@ -8,12 +8,19 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
-    <link rel="icon" href="assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" href="../assets/favicon/apple-touch-icon.png" />
 
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
 
-    <title> Accueil | In SITU ARCHITECTURE STUDIo </title>
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+
+    <title
+      >Accueil | Immobilier responsable | In SITU ARCHITECTURE STUDIO
+    </title>
     <meta
       name="description"
       content="In situ, spécialiste de l’immobilier responsable, se décline en 3 métiers : Architecture, Conseil, Interior Design"
@@ -43,22 +50,29 @@
 
     <link
       rel="stylesheet"
+      id="cf7cf-style-css"
+      href="../wp-content/plugins/cf7-conditional-fields/style.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
       id="site-css"
-      href="assets/css/main.css"
+      href="../assets/css/main.css"
       type="text/css"
       media="all"
     />
     <script
       type="text/javascript"
-      src="assets/js/jquery/jquery.min.js"
+      src="../assets/js/jquery/jquery.min.js"
       id="jquery-core-js"
     ></script>
     <script
       type="text/javascript"
-      src="assets/js/jquery/jquery-migrate.min.js"
+      src="../assets/js/jquery/jquery-migrate.min.js"
       id="jquery-migrate-js"
     ></script>
-    <!-- <link rel="shortlink" href="index.html" /> -->
+    <link rel="shortlink" href="index.html" />
   </head>
   <body class="template-home" data-controller="home">
     <div class="c-site-menu js-c-site-menu">
@@ -121,7 +135,7 @@
             <li
               class="c-site-menu__modal__nav-list-item js-c-site-menu__modal__nav-list-item text-hover"
             >
-              <a target="_self" href="identite.html"> Identité </a>
+              <a target="_self" href="#"> Identité </a>
               <div class="c-site-menu__modal__nav-list-item__arrow">
                 <svg class="svg-icon svg-arrow" aria-hidden="true">
                   <use xlink:href="#"></use>
@@ -182,7 +196,7 @@
             <li
               class="c-site-menu__modal__nav-list-item js-c-site-menu__modal__nav-list-item text-hover"
             >
-              <a target="_self" href="contact.html"> Contact </a>
+              <a target="_self" href="#"> Contact </a>
               <div class="c-site-menu__modal__nav-list-item__arrow">
                 <svg class="svg-icon svg-arrow" aria-hidden="true">
                   <use xlink:href="#"></use>
@@ -456,7 +470,7 @@
                 </div>
                 <img
                   class="c-slider-job__slider__item-background"
-                  src="assets/images/conseil.png"
+                  src="wp-content/uploads/2023/12/conseil.png"
                 />
                 <a href="#" class="c-slider-job__slider__item-link"></a>
               </div>
@@ -477,7 +491,7 @@
                 </div>
                 <img
                   class="c-slider-job__slider__item-background"
-                  src="assets/images/Rectanglelight.png"
+                  src="wp-content/uploads/2023/12/Rectanglelight.png"
                 />
                 <a href="#" class="c-slider-job__slider__item-link"></a>
               </div>
@@ -499,7 +513,7 @@
                 </div>
                 <img
                   class="c-slider-job__slider__item-background"
-                  src="assets/images/Rectangle63light.png"
+                  src="wp-content/uploads/2023/12/Rectangle63light.png"
                 />
                 <a href="#" class="c-slider-job__slider__item-link"></a>
               </div>
@@ -787,9 +801,7 @@
                       <div
                         class="c-commitments__content__lottie"
                         data-lottie-src="#"
-                      >
-                        <img src="assets/images/feauture.png" alt="" />
-                      </div>
+                      ></div>
                     </div>
                     <div class="c-commitments__content__right">
                       <h3 class="c-commitments__content__title">
@@ -811,6 +823,27 @@
                           personnalisées à chaque projet.
                         </p>
                       </div>
+
+                      <!-- <a class="c-button dark-blue" href="#">
+                        <div class="c-button__icon has-bg">
+                          <svg class="svg-icon svg-arrow" aria-hidden="true">
+                            <use
+                              xlink:href="#"
+                            ></use>
+                          </svg>
+                          <span class="c-button__icon__duplicate">
+                            <svg class="svg-icon svg-arrow" aria-hidden="true">
+                              <use
+                                xlink:href="#"
+                              ></use>
+                            </svg>
+                          </span>
+                          <span class="c-button__icon__duplicateBg"></span>
+                        </div>
+                        <span class="c-button__label">
+                          VOIR TOUS NOS ENGAGEMENTS
+                        </span>
+                      </a> -->
                     </div>
                   </div>
                 </div>
@@ -819,10 +852,8 @@
                     <div class="c-commitments__content__left">
                       <div
                         class="c-commitments__content__lottie"
-                        data-lottie-src="#"
-                      >
-                        <img src="assets/images/feauture.png" alt="" />
-                      </div>
+                        data-lottie-src="https://norea.paris/wp-content/uploads/2024/01/NOREA_Engagements_03.json"
+                      ></div>
                     </div>
                     <div class="c-commitments__content__right">
                       <h3 class="c-commitments__content__title">
@@ -844,6 +875,27 @@
                           tenons informés de l'avancement de vos projets.
                         </p>
                       </div>
+
+                      <!-- <a class="c-button dark-blue" href="#">
+                        <div class="c-button__icon has-bg">
+                          <svg class="svg-icon svg-arrow" aria-hidden="true">
+                            <use
+                              xlink:href="#"
+                            ></use>
+                          </svg>
+                          <span class="c-button__icon__duplicate">
+                            <svg class="svg-icon svg-arrow" aria-hidden="true">
+                              <use
+                                xlink:href="#"
+                              ></use>
+                            </svg>
+                          </span>
+                          <span class="c-button__icon__duplicateBg"></span>
+                        </div>
+                        <span class="c-button__label">
+                          VOIR TOUS NOS ENGAGEMENTS
+                        </span>
+                      </a> -->
                     </div>
                   </div>
                 </div>
@@ -852,10 +904,8 @@
                     <div class="c-commitments__content__left">
                       <div
                         class="c-commitments__content__lottie"
-                        data-lottie-src="#"
-                      >
-                        <img src="assets/images/feauture.png" alt="" />
-                      </div>
+                        data-lottie-src="https://norea.paris/wp-content/uploads/2024/01/NOREA_Engagements_02.json"
+                      ></div>
                     </div>
                     <div class="c-commitments__content__right">
                       <h3 class="c-commitments__content__title">
@@ -878,6 +928,23 @@
                           meilleures conditions.
                         </p>
                       </div>
+
+                      <a class="c-button dark-blue" href="#">
+                        <div class="c-button__icon has-bg">
+                          <svg class="svg-icon svg-arrow" aria-hidden="true">
+                            <use xlink:href="#"></use>
+                          </svg>
+                          <span class="c-button__icon__duplicate"
+                            ><svg class="svg-icon svg-arrow" aria-hidden="true">
+                              <use xlink:href="#"></use>
+                            </svg>
+                          </span>
+                          <span class="c-button__icon__duplicateBg"></span>
+                        </div>
+                        <span class="c-button__label">
+                          VOIR TOUS NOS ENGAGEMENTS
+                        </span>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -886,10 +953,8 @@
                     <div class="c-commitments__content__left">
                       <div
                         class="c-commitments__content__lottie"
-                        data-lottie-src="#"
-                      >
-                        <img src="assets/images/feauture.png" alt="" />
-                      </div>
+                        data-lottie-src="https://norea.paris/wp-content/uploads/2024/01/NOREA_Engagements_02.json"
+                      ></div>
                     </div>
                     <div class="c-commitments__content__right">
                       <h3 class="c-commitments__content__title">
@@ -911,6 +976,27 @@
                           prestations et à la satisfaction de nos clients.
                         </p>
                       </div>
+
+                      <!-- <a class="c-button dark-blue" href="#">
+                        <div class="c-button__icon has-bg">
+                          <svg class="svg-icon svg-arrow" aria-hidden="true">
+                            <use
+                              xlink:href="#"
+                            ></use>
+                          </svg>
+                          <span class="c-button__icon__duplicate">
+                            <svg class="svg-icon svg-arrow" aria-hidden="true">
+                              <use
+                                xlink:href="#"
+                              ></use>
+                            </svg>
+                          </span>
+                          <span class="c-button__icon__duplicateBg"></span>
+                        </div>
+                        <span class="c-button__label">
+                          VOIR TOUS NOS ENGAGEMENTS
+                        </span>
+                      </a> -->
                     </div>
                   </div>
                 </div>
@@ -988,7 +1074,7 @@
         >
         </div>
         <div class="container">
-          <h2 class="c-push-page__title st2">Novateur responsable</h2>
+          <h2 class="c-push-page__title st2">Novateurs responsables</h2>
           <div class="c-push-page__content">
             "Chez INSITU ARCHITECTURE STUDIO, l'architecture est un art qui
             s'appuie sur une maîtrise technique sans faille. Nos architectes
@@ -1242,24 +1328,6 @@
                 src="https://norea.paris/wp-content/uploads/2024/01/Allianz-3.png"
               />
             </div>
-            <div class="c-logos__track__item">
-              <img
-                class="c-logos__track__item__image"
-                src="https://norea.paris/wp-content/uploads/2024/01/Allianz-3.png"
-              />
-            </div>
-            <div class="c-logos__track__item">
-              <img
-                class="c-logos__track__item__image"
-                src="https://norea.paris/wp-content/uploads/2024/01/Allianz-3.png"
-              />
-            </div>
-            <div class="c-logos__track__item">
-              <img
-                class="c-logos__track__item__image"
-                src="https://norea.paris/wp-content/uploads/2024/01/Allianz-3.png"
-              />
-            </div>
           </div>
         </div>
       </section>
@@ -1350,7 +1418,7 @@
               <div class="c-recruitment__grid__render__cell cell-3">
                 <div
                   style="
-                    background-image: url('assets/images/Rejoindre_Home.jpg');
+                    background-image: url('wp-content/uploads/2024/01/Rejoindre_Home.jpg');
                   "
                 ></div>
               </div>
@@ -1366,7 +1434,7 @@
               <div class="c-recruitment__grid__render__cell cell-7">
                 <div
                   style="
-                    background-image: url('assets/images/Norea-Rejoindre-1.jpg');
+                    background-image: url('wp-content/uploads/2024/01/Norea-Rejoindre-1.jpg');
                   "
                 >
                 </div>
@@ -1405,7 +1473,7 @@
                   </span>
                   <span class="c-button__icon__duplicateBg"></span>
                 </div>
-                <span class="c-button__label"> Prendre rendez-vous </span>
+                <span class="c-button__label"> Contactez nous </span>
               </a>
 
               <a
@@ -1454,7 +1522,7 @@
                 data-scroll
                 data-scroll-offset="5%"
               >
-                Notre bureau
+                Notre bureau et atelier
               </h4>
               <div class="ls-appear" data-scroll data-scroll-offset="5%">
                 <!-- <br /> -->
@@ -1519,7 +1587,7 @@
               </div>
               <div>
                 <span>Website by &nbsp;</span>
-                <a href="https://www.maxmind.ma" target="_blank">Maxmind </a>
+                <a href="https://www.maxmind.ma" target="_blank"> Maxmind </a>
               </div>
             </div>
           </div>
@@ -1527,7 +1595,11 @@
       </footer>
       <div class="wathsapp_icon">
         <a href="https://wa.me/+212762104008" target="_blank">
-          <img src="assets/images/whatsapp.png" alt="whatsapp" width="50px" />
+          <img
+            src="./wp-content/themes/norea/library/images/whatsapp.png"
+            alt="whatsapp"
+            width="50px"
+          />
         </a>
       </div>
     </main>
@@ -1538,27 +1610,26 @@
       id="swv-js"
     ></script> -->
 
-    <!-- <script
+    <script
       type="text/javascript"
-      src="wp-includes/js/dist/vendor/wp-polyfill-inert.min.js"
+      src="../wp-includes/js/dist/vendor/wp-polyfill-inert.min.js"
       id="wp-polyfill-inert-js"
     ></script>
     <script
       type="text/javascript"
-      src="wp-includes/js/dist/vendor/regenerator-runtime.min.js"
+      src="../wp-includes/js/dist/vendor/regenerator-runtime.min.js"
       id="regenerator-runtime-js"
     ></script>
     <script
       type="text/javascript"
-      src="wp-includes/js/dist/vendor/wp-polyfill.min.js"
+      src="../wp-includes/js/dist/vendor/wp-polyfill.min.js"
       id="wp-polyfill-js"
-    ></script> -->
+    ></script>
 
-    <script type="text/javascript" src="assets/js/app.js" id="site-js"></script>
-    <script>
-      // setTimeout(function () {
-      //   location.reload();
-      // }, 30);
-    </script>
+    <script
+      type="text/javascript"
+      src="../assets/js/app.js"
+      id="site-js"
+    ></script>
   </body>
 </html>
