@@ -4516,7 +4516,7 @@ body.template-projects .c-site-menu__container.hidden {
 }
 
 .c-overlap-cards__card__arrow.top {
-    transform: rotate(-180deg)
+    transform: rotate(90deg)
 }
 
 .c-overlap-cards__card__arrow.top svg:last-child {
@@ -4532,6 +4532,10 @@ body.template-projects .c-site-menu__container.hidden {
 .c-overlap-cards__card__arrow.top:hover svg:last-child {
     opacity: 1;
     transform: translateY(0%)
+}
+
+.c-overlap-cards__card__arrow.bottom {
+    transform: rotate(-90deg);
 }
 
 .c-overlap-cards__card__arrow.bottom svg:last-child {
