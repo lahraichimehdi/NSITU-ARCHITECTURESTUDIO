@@ -2490,7 +2490,7 @@ body.disable-scroll {
 .c-button__icon.has-bg {
     border-radius: 50%;
     overflow: hidden;
-    background-color: #fff;
+    background-color: #2b213f;
     width: 40px;
     min-width: 40px;
     max-width: 40px;
@@ -2577,7 +2577,7 @@ body.disable-scroll {
 }
 
 .c-button__label {
-    color: #fff;
+    color: #2b213f;
     font-size: 1rem;
     line-height: 1.375;
     font-weight: 500;
@@ -7032,7 +7032,7 @@ body.template-projects .c-site-menu__container.hidden {
     position: relative;
     width: 26.85vw;
     margin-left: 53.7vw;
-    margin-top: 6.25vw;
+    margin-top: .25vw;
     color: rgba(255, 255, 255, 0.75)
 }
 
@@ -7104,6 +7104,7 @@ body.template-projects .c-site-menu__container.hidden {
 }
 
 .c-form-container form>p:last-of-type {
+
     opacity: 0.5
 }
 
@@ -7131,7 +7132,7 @@ body.template-projects .c-site-menu__container.hidden {
 }
 
 .c-form-container__title {
-    color: #fff;
+    color: #2b213f;
     font-size: 50px;
     font-style: normal;
     font-weight: 600;
@@ -7198,9 +7199,9 @@ body.template-projects .c-site-menu__container.hidden {
 .c-form-container__right .wpcf7 textarea {
     width: 100%;
     background: none;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgb(43 33 63 / 47%);
     padding: 32px;
-    color: #fff
+    color: #2b213f
 }
 
 .c-form-container__right .wpcf7 .c-button {
@@ -7243,7 +7244,8 @@ body.template-projects .c-site-menu__container.hidden {
 
 .c-form-container__right .wpcf7 p {
     width: 100%;
-    position: relative
+    position: relative;
+    color: #2b213f;
 }
 
 .c-form-container__right .wpcf7 .half {
@@ -7355,15 +7357,15 @@ body.template-projects .c-site-menu__container.hidden {
     padding: 16px 0;
     background: none;
     border: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgb(43 33 63 / 47%);
     outline: none !important;
-    color: #fff;
+    color: #2b203e;
     font-size: 1rem
 }
 
 .c-form-container__right .wpcf7 input:not([type="submit"]):not([type="file"])::placeholder,
 .c-form-container__right .wpcf7 select::placeholder {
-    color: #fff;
+    color: #2b203e;
     font-size: 17px;
     font-style: normal;
     line-height: 20px
@@ -7377,9 +7379,10 @@ body.template-projects .c-site-menu__container.hidden {
     top: 0;
     width: 200%;
     height: 100%;
-    opacity: 0.3;
+    /* opacity: 0.3; */
     z-index: 1;
-    background: url(../images/texture30.svg), linear-gradient(129deg, #2a203e -21.81%, #ff5359 107.16%);
+    background-color: #fff;
+    /* background: url(../images/texture30.svg), linear-gradient(129deg, #2a203e -21.81%, #ff5359 107.16%); */
     background-blend-mode: overlay, normal
 }
 
